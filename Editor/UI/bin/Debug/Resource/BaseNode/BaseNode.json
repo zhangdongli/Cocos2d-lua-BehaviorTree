@@ -1,0 +1,1 @@
+[{"name":"优先级","type":"100","isVirtual":true,"precondition":null,"child":[]},{"name":"无优先级","type":"101","isVirtual":true,"precondition":null,"child":[]},{"name":"顺序","type":"102","isVirtual":true,"precondition":null,"child":[]},{"name":"发呆","type":"103","isVirtual":false,"precondition":null,"child":[]},{"name":"攻击","type":"104","isVirtual":false,"precondition":null,"child":[]}]

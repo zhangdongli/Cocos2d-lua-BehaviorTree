@@ -1,0 +1,5 @@
+C:\Users\dongli.zhang\Codes\BehaviorTreeEditor\Components\bin\Debug\BehaviorTreeEditor_Components.dll
+C:\Users\dongli.zhang\Codes\BehaviorTreeEditor\Components\bin\Debug\BehaviorTreeEditor_Components.pdb
+C:\Users\dongli.zhang\Codes\BehaviorTreeEditor\Components\obj\Debug\BehaviorTreeEditor_Components.dll
+C:\Users\dongli.zhang\Codes\BehaviorTreeEditor\Components\obj\Debug\BehaviorTreeEditor_Components.pdb
+C:\Users\dongli.zhang\Codes\BehaviorTreeEditor\Components\obj\Debug\Components.csprojResolveAssemblyReference.cache

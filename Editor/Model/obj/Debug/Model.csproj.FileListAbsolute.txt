@@ -1,0 +1,10 @@
+C:\Users\dongli.zhang\Codes\BehaviorTreeEditor\Model\bin\Debug\BehaviorTreeEditor_Model.dll
+C:\Users\dongli.zhang\Codes\BehaviorTreeEditor\Model\bin\Debug\BehaviorTreeEditor_Model.pdb
+C:\Users\dongli.zhang\Codes\BehaviorTreeEditor\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\dongli.zhang\Codes\BehaviorTreeEditor\Model\obj\Debug\BehaviorTreeEditor_Model.dll
+C:\Users\dongli.zhang\Codes\BehaviorTreeEditor\Model\obj\Debug\BehaviorTreeEditor_Model.pdb
+C:\Users\dongli.zhang\Works\BTEditor\Source\Model\bin\Debug\BehaviorTreeEditor_Model.dll
+C:\Users\dongli.zhang\Works\BTEditor\Source\Model\bin\Debug\BehaviorTreeEditor_Model.pdb
+C:\Users\dongli.zhang\Works\BTEditor\Source\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\dongli.zhang\Works\BTEditor\Source\Model\obj\Debug\BehaviorTreeEditor_Model.dll
+C:\Users\dongli.zhang\Works\BTEditor\Source\Model\obj\Debug\BehaviorTreeEditor_Model.pdb
