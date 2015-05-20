@@ -23,18 +23,7 @@ function ZDLNodeFactory:ctor()
 		["ZDLNodeSequence"]=ZDLNodeSequence,
 		
 		-- 每添加一个自定义节点记得这儿要加上
-		["SGNodeAttack"]=SGNodeAttack,
-		["SGNodeCenter"]=SGNodeCenter,
-		["SGNodeFllow"]=SGNodeFllow,
-		["SGNodeGetTarget"]=SGNodeGetTarget,
-		["SGNodeIdle"]=SGNodeIdle,
-		["SGNodeMarch"]=SGNodeMarch,
-		["SGNodeRetreat"]=SGNodeRetreat,
-		["SGNodeSkill1"]=SGNodeSkill1,
-		["SGNodeSkill2"]=SGNodeSkill2,
-		["SGNodeGroupSkill"]=SGNodeGroupSkill,
-		["SGNodeAttackEnemyCamp"]=SGNodeAttackEnemyCamp,
-		["SGNodeRemoveTarget"]=SGNodeRemoveTarget,
+		
 	};
 
 	PreconditionClass = {
@@ -45,33 +34,7 @@ function ZDLNodeFactory:ctor()
 		["ZDLNodePreconditionTRUE"]=ZDLNodePreconditionTRUE,
 		
 		-- 每添加一个自定义条件记得这儿要加上
-		["SGPreconditionAttackRange"]=SGPreconditionAttackRange,
-		["SGPreconditionAttackTime"]=SGPreconditionAttackTime,
-		["SGPreconditionHasTarget"]=SGPreconditionHasTarget,
-		["SGPreconditionInPlayerVision"]=SGPreconditionInPlayerVision,
-		["SGPreconditionIsCenter"]=SGPreconditionIsCenter,
-		["SGPreconditionIsFriends"]=SGPreconditionIsFriends,
-		["SGPreconditionIsMarch"]=SGPreconditionIsMarch,
-		["SGPreconditionIsRetreat"]=SGPreconditionIsRetreat,
-		["SGPreconditionSeeEnemies"]=SGPreconditionSeeEnemies,
-		["SGPreconditionSkill1Anger"]=SGPreconditionSkill1Anger,
-		["SGPreconditionSkill1Time"]=SGPreconditionSkill1Time,
-		["SGPreconditionSkill2Anger"]=SGPreconditionSkill2Anger,
-		["SGPreconditionSkill2Time"]=SGPreconditionSkill2Time,
-		["SGPreconditionIsPlayer"]=SGPreconditionIsPlayer,
-		["SGPreconditionHasCompleteGroupSkill"]=SGPreconditionHasCompleteGroupSkill,
-		["SGPreconditionIsAllHosting"]=SGPreconditionIsAllHosting,
-		["SGPreconditionIsAutoFind"]=SGPreconditionIsAutoFind,
-		["SGPreconditionMoveSpeedIsZero"]=SGPreconditionMoveSpeedIsZero,
-		["SGPreconditionAttackSpeedIsZero"]=SGPreconditionAttackSpeedIsZero,
-		["SGPreconditionIsRidicule"]=SGPreconditionIsRidicule,
-		["SGPreconditionIsChaos"]=SGPreconditionIsChaos,
-		["SGPreconditionIsSpecialStatus"]=SGPreconditionIsSpecialStatus,
-		["SGPreconditionIssueCommands"]=SGPreconditionIssueCommands,
-		["SGPreconditionIsSilence"]=SGPreconditionIsSilence,
-		["SGPreconditionIsPursuit"]=SGPreconditionIsPursuit,
-		["SGPreconditionAttackIsComplete"]=SGPreconditionAttackIsComplete,
-		["SGPreconditionIsVertigo"]=SGPreconditionIsVertigo,
+		
 	};
 
 	FactoryCache = {};
