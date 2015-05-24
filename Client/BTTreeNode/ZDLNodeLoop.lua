@@ -12,6 +12,13 @@ function ZDLNodeLoop:ctor(parent,precondition)
 	self.mi_CurrentCount = 0;
 end
 
+--[[
+	* 设置循环次数
+]]
+function ZDLNodeLoop:setLoopCount(count)
+	self.mi_LoopCount = count;
+end
+
 -----------------------------------------------
 -----------------------------------------------
 -----------------重写父类的函数------------------
