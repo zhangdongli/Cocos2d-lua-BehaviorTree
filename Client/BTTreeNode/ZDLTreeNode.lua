@@ -30,6 +30,15 @@ function ZDLTreeNode.initBehaviorTreeParam()
 		k_TNS_Finish  = 3--执行完成
 	};
 
+	-- 并行节点的完成条件
+	ZDLParallelFinishCondition = {
+		k_PFC_OR = 1,
+		k_PFC_AND = 2
+	};
+
+	-- 循环节点的循环次数,-1表示无限循环
+	kInfiniteLoop = -1;
+
 	--是否是调试模式
 	k_DEBUG_FLAG = GameInfo.TestAI;
 end

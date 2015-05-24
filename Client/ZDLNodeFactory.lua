@@ -21,6 +21,8 @@ function ZDLNodeFactory:ctor()
 		["ZDLNodePrioritySelector"]=ZDLNodePrioritySelector,
 		["ZDLNodeNonePrioritySelector"]=ZDLNodeNonePrioritySelector,
 		["ZDLNodeSequence"]=ZDLNodeSequence,
+		["ZDLNodeParallel"]=ZDLNodeParallel,
+		["ZDLNodeLoop"]=ZDLNodeLoop,
 		
 		-- 每添加一个自定义节点记得这儿要加上
 		
