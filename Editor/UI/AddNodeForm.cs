@@ -44,6 +44,17 @@ namespace UI
                 {
                     this.isVirtualCheckBox.Checked = false;
                 }
+                this.loopCountTxt.Text = this.editNode.loopCount.ToString();
+                if (this.editNode.finishCondition == 1)
+                {
+                    this.k_PFC_OR.Checked = true;
+                    this.k_PFC_AND.Checked = false;
+                }
+                else
+                {
+                    this.k_PFC_OR.Checked = false;
+                    this.k_PFC_AND.Checked = true;
+                }
             }
         }
 
@@ -77,10 +88,27 @@ namespace UI
                  Node tmpNode = new Node();
                  tmpNode.name = this.editNode.name;
                  tmpNode.type = this.editNode.type;
+                 tmpNode.loopCount = this.editNode.loopCount;
+                 tmpNode.finishCondition = this.editNode.finishCondition;
 
                 this.editNode.name = this.nameTextBox.Text.Trim(new char[] { '\n', ' ' });
                 this.editNode.type = this.typeTextBox.Text.Trim(new char[] { '\n', ' ' });
                 this.editNode.isVirtual = this.isVirtualCheckBox.Checked;
+
+                int res = -1; 
+                if (int.TryParse(this.loopCountTxt.Text,out res)){
+                    this.editNode.loopCount = res;
+                }
+          
+                if (this.k_PFC_OR.Checked)
+                {
+                    this.editNode.finishCondition = 1;
+                }
+                else
+                {
+                    this.editNode.finishCondition = 2;
+                }
+                
 
                 //发送更改通知
                
@@ -95,6 +123,20 @@ namespace UI
                 newN.name = this.nameTextBox.Text.Trim(new char[]{'\n',' '});
                 newN.type = this.typeTextBox.Text.Trim(new char[]{'\n',' '});
                 newN.isVirtual = this.isVirtualCheckBox.Checked;
+                int res = -1;
+                if (int.TryParse(this.loopCountTxt.Text, out res))
+                {
+                    newN.loopCount = res;
+                }
+
+                if (this.k_PFC_OR.Checked)
+                {
+                    newN.finishCondition = 1;
+                }
+                else
+                {
+                    newN.finishCondition = 2;
+                }
                 this.nodeDatas.Add(newN);
             }
 
@@ -126,6 +168,17 @@ namespace UI
             {
                 error = "类型不可以为空";
                 return false;
+            }
+
+            if (this.loopCountTxt.Text != null && this.loopCountTxt.Text.Length > 0)
+            { 
+                int res = -1;
+                if (!int.TryParse(this.loopCountTxt.Text, out res))
+                {
+                    error = "循环次数必须为数字";
+                    return false;
+                }
+                this.loopCountTxt.Text = res.ToString();
             }
 
             return true;

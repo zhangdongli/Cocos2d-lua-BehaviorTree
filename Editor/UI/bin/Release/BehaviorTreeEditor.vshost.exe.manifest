@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BehaviorTreeEditor.exe" size="63488">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BehaviorTreeEditor.exe" size="65024">
       <assemblyIdentity name="BehaviorTreeEditor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>t+8SfguP2/a3lcdfOSrKei0V+eBnnWe/e8AfHHAD5Bw=</dsig:DigestValue>
+        <dsig:DigestValue>ki81zk8wYkkeyTD4MsbOSP7UEB5ze8fHesb6jGX27iA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -61,7 +61,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ODZWeArQEdVUNhbIikmR4MMiBCdAiPqbdIwkSSNzWAg=</dsig:DigestValue>
+        <dsig:DigestValue>HEnDv2ChNIbHO9mwCqEtIEEYsrWaW+Ilu8M6eOakfmQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -73,19 +73,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>IyD/W+/dbdP41PfPIUVIFPTB2MeTAKVYjKjvDf8i/N4=</dsig:DigestValue>
+        <dsig:DigestValue>QtzLB/gwISdseyE0Ot0xDI0XwJ52knvKNm+9X0YmH+k=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BehaviorTreeEditor_Model.dll" size="12800">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BehaviorTreeEditor_Model.dll" size="13312">
       <assemblyIdentity name="BehaviorTreeEditor_Model" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>8HG802tXNps4Z23dP2UhTW1lIND/DMn6GVGQYEKQV8Y=</dsig:DigestValue>
+        <dsig:DigestValue>tSRDSzoCg5hmWUTRdsjMLsP0Qox7dY6CV0+OXueXCXs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

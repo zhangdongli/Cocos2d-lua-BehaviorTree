@@ -17,6 +17,10 @@ namespace BehaviorTreeEditor_Model
 
         public bool isVirtual { get; set; }
 
+        public int loopCount { get; set; }
+
+        public int finishCondition { get; set; }
+
         public Precondition precondition { get; set; }
 
         public List<Node> child { get; set; }
@@ -26,6 +30,8 @@ namespace BehaviorTreeEditor_Model
             this.name = null;
             this.type = null;
             this.isVirtual = false;
+            this.loopCount = -1;
+            this.finishCondition = 1;
             this.precondition = null;
             this.child = new List<Node>();
             NotificationCenter.DefaultCenter().addObserver(this, "NodeUpdate");
@@ -42,6 +48,8 @@ namespace BehaviorTreeEditor_Model
             res.name = (string)this.name.Clone();
             res.type = (string)this.type.Clone();
             res.isVirtual = this.isVirtual;
+            res.loopCount = this.loopCount;
+            res.finishCondition = this.finishCondition;
             if (this.precondition != null)
             {
                 res.precondition = (Precondition)this.precondition.Clone();
@@ -70,6 +78,8 @@ namespace BehaviorTreeEditor_Model
                     this.name = now.name;
                     this.type = now.type;
                     this.isVirtual = now.isVirtual;
+                    this.loopCount = now.loopCount;
+                    this.finishCondition = now.finishCondition;
                 }
             }
         }

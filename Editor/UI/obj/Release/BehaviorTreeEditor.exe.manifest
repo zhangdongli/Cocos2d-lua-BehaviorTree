@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BehaviorTreeEditor.exe" size="63488">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BehaviorTreeEditor.exe" size="65024">
       <assemblyIdentity name="BehaviorTreeEditor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ATOK3RwDL0XCKSS0KsDT15Damj8tL1nOCu7N5qdMzcw=</dsig:DigestValue>
+        <dsig:DigestValue>hlK+XDXofKzeM2qHOJPQ3M6sF80KREuCMXhfq2DeESo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -61,7 +61,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>fMmbYQQl7AZUtXKF1lXFN6a7uR2SxRSQ4ja6X1YulNc=</dsig:DigestValue>
+        <dsig:DigestValue>HEnDv2ChNIbHO9mwCqEtIEEYsrWaW+Ilu8M6eOakfmQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -78,14 +78,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BehaviorTreeEditor_Model.dll" size="12800">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BehaviorTreeEditor_Model.dll" size="13312">
       <assemblyIdentity name="BehaviorTreeEditor_Model" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>DgArMaLWpSFrYmUjWRbwQ4qk/aeWOPhqIiEl9trvIOA=</dsig:DigestValue>
+        <dsig:DigestValue>tSRDSzoCg5hmWUTRdsjMLsP0Qox7dY6CV0+OXueXCXs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
